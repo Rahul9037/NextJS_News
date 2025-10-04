@@ -2,7 +2,8 @@ import { NextResponse } from 'next/server';
 
 export function middleware(request) {
   //return NextResponse.next();
-  return NextResponse.redirect();
+  // return NextResponse.redirect();
+  return null;
 }
 
 export const config = {
